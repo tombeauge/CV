@@ -1,0 +1,123 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm, footskip=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+    pdftitle={Tom Beaug\'e's CV},
+    pdfauthor={Tom Beaug\'e},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage{paracol}
+
+\raggedright
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+
+\newenvironment{highlights}{
+    \begin{itemize}[topsep=0.10cm, parsep=0.10cm, partopsep=0pt, itemsep=0pt, leftmargin=10pt]
+}{
+    \end{itemize}
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE Tom Beaug\'e} \\[5pt]
+    Bertrange, Luxembourg \ | \ Lausanne, Switzerland \\
+    \href{mailto:t.beauge@protonmail.com}{t.beauge@protonmail.com} \quad
+    +33 7 68 84 76 09 \\
+    \href{https://github.com/tombeauge}{github.com/tombeauge} \
+    \href{https://www.linkedin.com/in/tombeauge/}{linkedin.com/in/tombeauge}
+\end{center}
+
+\section{Education}
+\textbf{EPFL - École Polytechnique Fédérale de Lausanne (Switzerland)} \hfill Aug 2024 -- Present \\
+\textit{Bachelor of Science in Computer Science} \\[5pt]
+
+\textbf{European School of Luxembourg II, Mamer (Luxembourg)} \hfill Sep 2017 -- Jul 2024 \\
+\textit{European Baccalaureate (English Section)} \\ 
+Specializations: Advanced Mathematics, Economics, Computer Science, Physics, History \\[3pt]
+\textbf{Distinction:} Final Grade 87.67\%, awarded First Prize in Economics
+
+\section{Work Experience}
+
+\textbf{Intern, Cebi S.A.}, Luxembourg \hfill Nov 2022 \\
+\begin{highlights}
+    \item Deployed heat and humidity sensors across the manufacturing plant to support the company’s transition to Industry 4.0.
+    \item Integrated sensor data into the company’s Internet of Things (IoT) infrastructure, enhancing real-time monitoring capabilities.
+    \item Applied programming and CAD software skills to optimize sensor placement and data transmission efficiency.
+    \item Analyzed collected data to identify trends and insights, and presented technical findings, contributing to process optimization and operational efficiency.
+\end{highlights}
+
+\textbf{Intern, Natixis CIB (Trading Desk)}, Paris, France \hfill Jun 2022 -- Jul 2022 \\
+\begin{highlights}
+    \item Gained exposure to financial markets, specifically bond trading and swap strategies, by working on a desk specializing in swaps for supranational institutions.
+    \item Actively engaged with professionals involved in trading bonds, selling Forex derivatives, and syndication activities.
+    \item Priced bonds using market data and financial models to support trading decisions and optimize deal execution.
+\end{highlights}
+
+\textbf{Municipal Worker, Bertrange Commune}, Luxembourg \hfill Summers 2022, 2023 \\
+\begin{highlights}
+    \item Maintained public green spaces by removing litter, clearing overgrown areas, and ensuring a clean, safe environment.
+    \item Supported logistical operations by assisting in the setup of major town events and festivals.
+\end{highlights}
+
+\section{Personal Projects}
+\textbf{Option Pricing Models Exploration} \hfill Jan 2025 -- Present \\
+\begin{highlights}
+    \item Developed and implemented single-period and multi-period binomial tree models for option pricing, focusing on no-arbitrage principles and risk-neutral valuation.
+    \item Explored the Black-Scholes model, applying concepts from stochastic calculus and geometric Brownian motion to derive option prices in continuous-time frameworks.
+    \item Analyzed model limitations, proposing extensions for American options, volatility structures, and dynamic hedging strategies.
+    \item Authored a comprehensive technical report detailing the theoretical foundations, implementation, and performance analysis of the models.
+    \item All code, documentation, and the report are available on my \href{https://github.com/tombeauge}{GitHub repository}.
+\end{highlights} 
+
+\textbf{Automated Customer Service Bot} \hfill Jan 2023 \\
+\begin{highlights}
+    \item Designed and developed an automated customer service bot in Python to manage and respond to emails in real-time.
+    \item Integrated OpenAI's API for generating intelligent, context-aware responses based on customer queries.
+    \item Utilized SMTP and IMAP protocols to handle email communication, including fetching unread emails and sending automated replies.
+\end{highlights}
+
+\begin{highlights}
+    \item Completed CS50: Introduction to Computer Science (Harvard University).
+    \item Enrolled in MIT's Calculus Course.
+\end{highlights}
+
+\section{Skills}
+\textbf{Programming Languages:} Java, C, Python, Arduino, basic HTML/CSS/JavaScript, LaTeX \\
+\textbf{Languages:} French (Native), English (Bilingual), Spanish (B2)
+
+\section{Activities}
+
+\textbf{Model European Parliament (MEP)}, Luxembourg \hfill Feb 2023 \\
+\begin{highlights}
+    \item Served as a Portuguese delegate in the Foreign Affairs Committee, advocating for cybersecurity reforms in EU legislation.
+\end{highlights}
+
+\textbf{European Schools Sailing Cup}, Croatia \hfill May 2022, 2023 \\
+\begin{highlights}
+    \item Captained my school’s team in the European Schools Sailing Cup in Croatia for two consecutive years, participating in a week-long regatta.
+\end{highlights}
+
+\textbf{Volunteer, Course Contre la Faim}, Luxembourg \hfill May 2021 \\
+\begin{highlights}
+    \item Organized awareness campaigns and supported event logistics for a fundraising race against hunger.
+\end{highlights}
+
+\end{document}
